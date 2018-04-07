@@ -16,5 +16,12 @@ namespace BilgeAdam.EgeanStore.Client
         {
             InitializeComponent();
         }
+
+        private void msbBrands_Click(object sender, EventArgs e)
+        {
+            var f = new frmBrands();
+            f.MdiParent = this;
+            f.Show();
+        }
     }
 }

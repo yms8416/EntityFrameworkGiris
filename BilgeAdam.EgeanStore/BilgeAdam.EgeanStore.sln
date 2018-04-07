@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilgeAdam.EgeanStore.Client", "BilgeAdam.EgeanStore.Client\BilgeAdam.EgeanStore.Client.csproj", "{664F191B-D66A-4773-9FDF-666E9B7B77F7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilgeAdam.EgeanStore.Business", "BilgeAdam.EgeanStore.Business\BilgeAdam.EgeanStore.Business.csproj", "{A46EB0CE-AEF5-4A99-B77F-656965B1E1D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{664F191B-D66A-4773-9FDF-666E9B7B77F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{664F191B-D66A-4773-9FDF-666E9B7B77F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{664F191B-D66A-4773-9FDF-666E9B7B77F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A46EB0CE-AEF5-4A99-B77F-656965B1E1D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A46EB0CE-AEF5-4A99-B77F-656965B1E1D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A46EB0CE-AEF5-4A99-B77F-656965B1E1D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A46EB0CE-AEF5-4A99-B77F-656965B1E1D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

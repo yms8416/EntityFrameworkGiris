@@ -1,0 +1,11 @@
+C:\YMS8416\EntityFrameworkGiris\EntityFrameworkGiris\BilgeAdam.EgeanStore\BilgeAdam.Northwind.Bussiness\bin\Debug\BilgeAdam.Northwind.Bussiness.dll.config
+C:\YMS8416\EntityFrameworkGiris\EntityFrameworkGiris\BilgeAdam.EgeanStore\BilgeAdam.Northwind.Bussiness\bin\Debug\BilgeAdam.Northwind.Bussiness.dll
+C:\YMS8416\EntityFrameworkGiris\EntityFrameworkGiris\BilgeAdam.EgeanStore\BilgeAdam.Northwind.Bussiness\bin\Debug\BilgeAdam.Northwind.Bussiness.pdb
+C:\YMS8416\EntityFrameworkGiris\EntityFrameworkGiris\BilgeAdam.EgeanStore\BilgeAdam.Northwind.Bussiness\bin\Debug\EntityFramework.dll
+C:\YMS8416\EntityFrameworkGiris\EntityFrameworkGiris\BilgeAdam.EgeanStore\BilgeAdam.Northwind.Bussiness\bin\Debug\EntityFramework.SqlServer.dll
+C:\YMS8416\EntityFrameworkGiris\EntityFrameworkGiris\BilgeAdam.EgeanStore\BilgeAdam.Northwind.Bussiness\bin\Debug\EntityFramework.xml
+C:\YMS8416\EntityFrameworkGiris\EntityFrameworkGiris\BilgeAdam.EgeanStore\BilgeAdam.Northwind.Bussiness\bin\Debug\EntityFramework.SqlServer.xml
+C:\YMS8416\EntityFrameworkGiris\EntityFrameworkGiris\BilgeAdam.EgeanStore\BilgeAdam.Northwind.Bussiness\obj\Debug\BilgeAdam.Northwind.Bussiness.csprojResolveAssemblyReference.cache
+C:\YMS8416\EntityFrameworkGiris\EntityFrameworkGiris\BilgeAdam.EgeanStore\BilgeAdam.Northwind.Bussiness\obj\Debug\BilgeAdam.Northwind.Bussiness.csproj.CoreCompileInputs.cache
+C:\YMS8416\EntityFrameworkGiris\EntityFrameworkGiris\BilgeAdam.EgeanStore\BilgeAdam.Northwind.Bussiness\obj\Debug\BilgeAdam.Northwind.Bussiness.dll
+C:\YMS8416\EntityFrameworkGiris\EntityFrameworkGiris\BilgeAdam.EgeanStore\BilgeAdam.Northwind.Bussiness\obj\Debug\BilgeAdam.Northwind.Bussiness.pdb

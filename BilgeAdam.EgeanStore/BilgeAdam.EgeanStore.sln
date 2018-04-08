@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilgeAdam.EgeanStore.Client
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilgeAdam.EgeanStore.Business", "BilgeAdam.EgeanStore.Business\BilgeAdam.EgeanStore.Business.csproj", "{A46EB0CE-AEF5-4A99-B77F-656965B1E1D0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Northwind", "Northwind", "{8A59CD43-5204-4202-B9A4-1FF7F22BEDC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilgeAdam.Northwind.Bussiness", "BilgeAdam.Northwind.Bussiness\BilgeAdam.Northwind.Bussiness.csproj", "{66C5028F-D54E-41B0-B718-AB8AD84FD6FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilgeAdam.Northwind.Client", "BilgeAdam.Northwind.Client\BilgeAdam.Northwind.Client.csproj", "{7B15C284-C7AE-47C0-973D-2CECAA1DDF0E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,9 +27,21 @@ Global
 		{A46EB0CE-AEF5-4A99-B77F-656965B1E1D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A46EB0CE-AEF5-4A99-B77F-656965B1E1D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A46EB0CE-AEF5-4A99-B77F-656965B1E1D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66C5028F-D54E-41B0-B718-AB8AD84FD6FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66C5028F-D54E-41B0-B718-AB8AD84FD6FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66C5028F-D54E-41B0-B718-AB8AD84FD6FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66C5028F-D54E-41B0-B718-AB8AD84FD6FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B15C284-C7AE-47C0-973D-2CECAA1DDF0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B15C284-C7AE-47C0-973D-2CECAA1DDF0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B15C284-C7AE-47C0-973D-2CECAA1DDF0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B15C284-C7AE-47C0-973D-2CECAA1DDF0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{66C5028F-D54E-41B0-B718-AB8AD84FD6FC} = {8A59CD43-5204-4202-B9A4-1FF7F22BEDC2}
+		{7B15C284-C7AE-47C0-973D-2CECAA1DDF0E} = {8A59CD43-5204-4202-B9A4-1FF7F22BEDC2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {980D3F50-AA16-4431-BCED-6B0A663D7174}

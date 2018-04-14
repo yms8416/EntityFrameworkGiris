@@ -42,9 +42,14 @@ namespace BilgeAdam.Northwind.Client
             //TODO: 1 ve 5 düzeltilecek
             //dataGridView1.DataSource = ctx.Products.Where(i => i.CategoryId == 1).ToList();
             //Tahıl kategorisindeki ürünlerin fiyata göre sıralı hâli
-            dataGridView1.DataSource = ctx.Products.Where(i => i.CategoryId == 5).ToList();
+            //dataGridView1.DataSource = ctx.Products.Where(i => i.CategoryId == 5).ToList();
             //Chai ürününe ait satışlar
-            dataGridView1.DataSource = ctx.OrderDetails.Where(i => i.ProductId == 1)
+            dataGridView1.AutoGenerateColumns = false;
+            dataGridView1.DataSource = ctx.OrderDetails.Where(i => i.ProductId == 1).ToList();
+            dataGridView2.AutoGenerateColumns = false;
+            dataGridView2.DataSource = ctx.OrderDetails.Where(i => i.ProductId == 1).Select(i => i.Order).ToList();
+
+
 
             /*Çalışma:
              * Adında a harfi geçenler ada göre sıralı gelsin

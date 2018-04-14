@@ -11,6 +11,10 @@ namespace BilgeAdam.Northwind.Bussiness.Entities
     [Table("Employees")]
     public class Employee
     {
+        public Employee()
+        {
+            Orders = new List<Order>();
+        }
         [Key]
         public int EmployeeId { get; set; }
         [Required]
@@ -20,5 +24,7 @@ namespace BilgeAdam.Northwind.Bussiness.Entities
         public DateTime? BirthDate { get; set; }
         public string Country { get; set; }
         public string City { get; set; }
+
+        public ICollection<Order> Orders { get; set; }
     }
 }

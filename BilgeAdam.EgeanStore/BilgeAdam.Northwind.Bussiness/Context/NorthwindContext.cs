@@ -12,7 +12,8 @@ namespace BilgeAdam.Northwind.Bussiness.Context
     {
         public NorthwindContext() : base("northwindConnStr")
         {
-
+            Configuration.ProxyCreationEnabled = false;
+            Configuration.LazyLoadingEnabled = false;
         }
 
         public DbSet<Product> Products { get; set; }

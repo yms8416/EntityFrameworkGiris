@@ -48,6 +48,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context\NorthwindContext.cs" />
+    <Compile Include="Dtos\BasicOrderDetailDto.cs" />
+    <Compile Include="Dtos\BasicProductDto.cs" />
     <Compile Include="Entities\Employee.cs" />
     <Compile Include="Entities\Order.cs" />
     <Compile Include="Entities\OrderDetails.cs" />

@@ -11,6 +11,10 @@ namespace BilgeAdam.Northwind.Bussiness.Entities
     [Table("Products")]
     public class Product
     {
+        public Product()
+        {
+            OrderDetails = new List<OrderDetail>();
+        }
         [Key]
         public int ProductId { get; set; }
         [Required]
@@ -19,5 +23,7 @@ namespace BilgeAdam.Northwind.Bussiness.Entities
         public decimal? UnitPrice { get; set; }
         public int? CategoryId { get; set; }
         public int? SupplierId { get; set; }
+
+        public virtual ICollection<OrderDetail> OrderDetails { get; set; }
     }
 }

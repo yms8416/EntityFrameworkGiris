@@ -16,8 +16,11 @@ namespace BilgeAdam.Northwind.Bussiness.Entities
         }
         public int OrderId { get; set; }
         public DateTime OrderDate { get; set; }
-        public string CustomerId { get; set; }
-        public int EmloyeeId { get; set; }
+        public string CustomerID { get; set; }
+        public int EmployeeID { get; set; }
+
+        [ForeignKey(nameof(EmployeeID))]
+        public virtual Employee Employee { get; set; }
 
         public virtual ICollection<OrderDetail> OrderDetails { get; set; }
     }
